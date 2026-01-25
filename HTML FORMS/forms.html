@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Course Registration Form</h1>
+    <fieldset>
+      <legend>personal details</legend>
+      <form action="https://www.youtube.com/watch?v=7OoE40HYFu8&list=PLcuBWwP72iOARJUAHNHeyH5OQCGzggc2u&index=6" method="post">
+        <table>
+          <tr>
+            <td><label for="fname" >First Name</label></td>
+            <td><input type="text" name="fname" id="fname" placeholder="EX:Gowtham" required /></td>
+          </tr>
+          <tr>
+            <td><label for="lname">Last Name</label></td>
+            <td><input type="text" name="lname" id="lname"></td>
+          </tr>
+          <tr>
+            <td><label for="mnum">Mobile Number</label></td>
+            <td><input type="tel" name="mnum" id="mnum"></td>
+          </tr>
+          <tr>
+            <td><label for="mail">Gmail</label></td>
+            <td><input type="email" name="mail" id="mail"></td>
+          </tr>
+          <tr>
+            <td><label for="pass">Password</label></td>
+            <td><input type="password" name="pass" id="pass"></td>
+          </tr>
+            <td><label for="cpass">Confirm Password</label></td>
+            <td><input type="password" name="cpass" id="cpass"></td>
+          </tr>
+          <tr>
+            <td><label for="dob">DOB</label></td>
+            <td><input type="date" name="dob" id="dob">
+            </td>
+          </tr>
+          <tr>
+            <td><label for="age">Age</label></td>
+            <td><input type="number" name="age" id="age" min="18"></td>
+          </tr>
+          <tr>
+            <td><label for="gender">Gender</label></td>
+            <td>
+                <input type="radio" value="MALE" name="gender" id="gender" ><span>Male</span>
+                <input type="radio" value="FEMALE" name="gender" id="gender" checked><label >Female</label>
+                <input type="radio" value="OTHERS" name="gender" id="gender" ><span>Others</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="country">Select Country</label></td>
+            <td><select name="country" id="country">
+                <option value="IND" selected>India </option>
+                <option value="US" disabled>USA</option>
+                <option value="RS" selected>Russia</option>
+            </select></td>
+            
+          </tr>
+          <tr>
+            <td><label for="upload">Upload Picture</label></td>
+            <td><input type="file" name="upload" id="upload"></td>
+          </tr>
+          <tr>
+            <td>
+                <label for="text">Feedback</label>
+            </td>
+            <td><textarea name="text" id="text" rows="4" cols="40"></textarea></td>
+          </tr>
+          <tr>
+            <td>
+                <button type="reset">Reset</button>
+            </td>
+          </tr>
+          
+        </table>
+        
+        
+      </form>
+    </fieldset>
+    <fieldset>
+        <legend>Course Details</legend>
+        <table>
+            <tr>
+                <td><label for="course">Select Course</label></td>
+
+            </tr>
+            <tr>
+                <td><select name="course" id="course">
+                    <option value="course" value="html">HTML</option>
+                    <option value="course" value="css">CSS</option>
+                    <option value="course" value="java">JAVA</option>
+                </select></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="deliverymode">Delivery Mode</label></td>
+                <td>
+                    <input type="checkbox" name="deliverymode" id="deliverymode" value="online"><span>ONLINE</span>
+                    <input type="checkbox" name="deliverymode" id="deliverymode" value="offline"><span>OFFLINE</span>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="comments">Comments</label></td>
+                <td><textarea name="comments" id="comments"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td>
+            </tr>
+        </table>
+    </fieldset>
+  </body>
+</html>
