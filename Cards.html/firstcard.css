@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+nav {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.26);
+  backdrop-filter: blur(25px) saturation(200px);
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+}
+
+.list-items {
+  display: inline;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 90px;
+  border-radius: 10px;
+}
+
+.nav-items {
+  text-decoration: none;
+  color: blanchedalmond;
+  transition: all 0.3s ease;
+}
+
+.nav-items:hover {
+  background-color: rgb(0, 118, 0);
+  padding: 10px;
+  border-radius: 10px;
+  text-shadow: 10px 20px 50px rgb(121, 0, 0);
+}
+
+.bgvideosec {
+  width: 100%;
+  object-fit: cover;
+}
+
+.bgvideo {
+  width: 100%;
+}
+
+.card {
+  border: 2px solid black;
+  margin: 0px auto;
+  margin-bottom,: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 220px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.bg-img {
+  width: 220px;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.trisha {
+  padding: 10px 10px 0px 10px;
+}
+
+.names {
+  color: black;
+  margin-bottom: 5px;
+  padding: 2px;
+  border: 1px solid olivedrab;
+  border-radius: 10px;
+  background-color: olivedrab;
+}
+
+.p {
+  margin: 20px;
+}
+
+.btn {
+  padding: 7px;
+  border-radius: 7px;
+  margin: 15px;
+  background-color: olivedrab;
+}
+
+.card:hover {
+  background-color: rgb(0, 0, 0);
+  box-shadow: 10px 10px 80px olivedrab;
+  transform: translatey(-10px);
+  transform: scale(105%);
+}
+
+.trisha:hover {
+  text-shadow: 10px 10px 80px olivedrab;
+}
