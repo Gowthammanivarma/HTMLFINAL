@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+  color: white;
+}
+h1 {
+  box-shadow: 2px 5px 25px rgba(0, 212, 255, 1);
+}
+
+h1,
+fieldset {
+  margin: 10px auto;
+  width: 400px;
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 10px;
+
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+legend {
+  border-radius: 20px;
+  background-color: rgb(4, 124, 199);
+  padding: 5px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+td {
+  padding: 10px;
+}
+
+label {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+}
+input {
+  border: 2px solid crimson;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(4, 124, 199);
+}
+.placeholder {
+  color: white;
+}
